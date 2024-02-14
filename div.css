@@ -1,0 +1,45 @@
+#div0{
+    background-color: red;
+}
+.div1 {
+    background-color: green;
+    width: 300px;
+    margin: auto;   
+}
+.div2{
+     background-color: yellow;
+}
+.div3{
+    background-color: blue;
+}
+.div4{
+    background-color: red;
+}
+
+.div5{
+    background-color: yellow;
+}
+.div6{
+   background-color: blue;
+}
+.div7{
+   background-color: red;
+}
+.div5,
+.div6,
+.div7{
+    /* float: left; */
+    /* display: inline-block; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 33% 33% 33% 33%;
+    width: 20%;
+    margin-left: 10px;
+    text-align: center;
+}
+.container{
+    margin-left: 230px;
+    width: 100%;
+    overflow: auto;
+}
+
